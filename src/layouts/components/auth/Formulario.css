@@ -1,0 +1,74 @@
+
+.formularioR {
+    width: 700px;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: ease-in-out all 0.3s;
+    background-color: #FFEC9E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: #ED9455;
+}
+
+.tituloform {
+    color: hsla(54, 49%, 37%, 0.9);
+    font: 40px Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /*height: 140px;
+    left: 0;
+    letter-spacing: 5px;
+    margin: -80px 0 0 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    /* top: 50%; */
+    /* width: 50%; */
+    animation: move linear 3000ms infinite;
+}
+
+@keyframes move {
+    0% {
+        text-shadow:
+            4px -4px 0 rgb(241, 237, 237),
+            3px -3px 0 rgb(247, 243, 243),
+            2px -2px 0 rgb(241, 239, 239),
+            1px -1px 0 rgb(243, 240, 240),
+            -4px 4px 0 rgb(244, 248, 248),
+            -3px 3px 0 rgb(221, 181, 4),
+            -2px 2px 0 hsla(180, 100%, 50%, 1),
+            -1px 1px 0 hsla(180, 100%, 50%, 1);
+    }
+
+    25% {
+        text-shadow:
+            -4px -4px 0 rgb(211, 161, 86),
+            -3px -3px 0 rgb(219, 154, 34),
+            -2px -2px 0 hsla(180, 100%, 50%, 1),
+            -1px -1px 0 hsla(180, 100%, 50%, 1),
+            4px 4px 0 #ecc74b,
+            3px 3px 0 #ecc74b,
+            2px 2px 0 #ecc74b,
+            1px 1px 0 #ecc74b,
+        ;
+    }
+
+    50% {
+        text-shadow:
+            -4px 4px 0 rgb(216, 145, 145),
+            -3px 3px 0 rgb(219, 154, 34),
+            -2px 2px 0 rgb(219, 154, 34),
+            -1px 1px 0 rgb(219, 154, 34),
+            4px -4px 0 #ED9455;
+        /* 3px -3px 0 hsla(180, 100%, 50%, 1),
+            2px -2px 0 hsla(180, 100%, 50%, 1),
+            1px -1px 0 hsla(180, 100%, 50%, 1); */
+    }
+
+}
+
+.btn {
+    background-color: #ED9455;
+    color: white;
+}
